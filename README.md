@@ -19,3 +19,27 @@
 - Dim_filiere : informations sur les filières.
 
 - Dim_temps : informations sur les dates (jour, mois, année).
+
+# 2. Schéma de flux ETL (Extraction → Transformation → Chargement)
+
+## Étapes du flux :
+
+- Extraction :
+
+Les données proviennent de plusieurs fichiers Excel (étudiants, filières, inscriptions). + 
+
+Utilisation de composants tFileInputExcel dans Talend pour lire chaque fichier.
+
+- Transformation :
+
+Nettoyage et normalisation des données avec tMap, tFilterRow, tUniqRow.
+
+Création de clés de substitution avec tSurrogateKey.
+
+Conversion des dates et calcul des indicateurs.
+
+- Chargement :
+
+Chargement final dans les tables MySQL du Data Warehouse avec tMySQLOutput.
+
+Respect du modèle en étoile : les dimensions sont chargées avant la table de faits.
