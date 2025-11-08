@@ -45,3 +45,27 @@ Chargement final dans les tables MySQL du Data Warehouse avec tMySQLOutput.
 Respect du modèle en étoile : les dimensions sont chargées avant la table de faits.
 
 <img width="1543" height="266" alt="image" src="https://github.com/user-attachments/assets/fd3fde2b-fd3e-4901-b35e-e6c23497636c" />
+
+
+# 3- Extraction des données (ETL avec Talend)
+
+## Sources :
+Les données proviennent de fichiers Excel ou de bases de données SQL (Étudiants, Filières, Inscriptions).
+
+- Outil utilisé : Talend Open Studio
+
+- tFileInputExcel : lire les fichiers Excel.
+
+- tMysqlInput : extraire les données d’une base SQL.
+
+- tMap : pour relier et transformer les données.
+
+- tMySQLOutput : pour charger les données dans le Data Warehouse.
+
+## Processus d’extraction :
+
+- Lire les fichiers sources (étudiants, filières, inscriptions).
+
+- Sélectionner les colonnes utiles.
+
+- Transférer ces données vers les composants de transformation.
