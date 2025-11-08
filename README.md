@@ -90,6 +90,7 @@ Extraction du mois et de l’année pour la dimension temps.
 - Fait : 
 <img width="979" height="600" alt="image" src="https://github.com/user-attachments/assets/9da406fa-b4f5-4455-81e0-c36236ebb41c" />
 <img width="1920" height="945" alt="image" src="https://github.com/user-attachments/assets/c3dbb3d1-b8b0-431b-b309-242103b0066b" />
+<img width="1454" height="742" alt="image" src="https://github.com/user-attachments/assets/2318d0b6-06d7-4fad-b174-af027fbb4e77" />
 
 
 
