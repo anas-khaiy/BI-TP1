@@ -69,3 +69,15 @@ Les données proviennent de fichiers Excel ou de bases de données SQL (Étudian
 - Sélectionner les colonnes utiles.
 
 - Transférer ces données vers les composants de transformation.
+
+# 4- Transformations nécessaires
+
+- Nettoyage des données :
+
+Supprimer les doublons (tUniqRow).
+
+- Normalisation des dates :
+
+Conversion du format texte → date (TalendDate.parseDate("yyyy-MM-dd", colonne)).
+
+Extraction du mois et de l’année pour la dimension temps.
