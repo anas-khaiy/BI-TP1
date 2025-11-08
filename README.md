@@ -81,3 +81,16 @@ Supprimer les doublons (tUniqRow).
 Conversion du format texte → date (TalendDate.parseDate("yyyy-MM-dd", colonne)).
 
 Extraction du mois et de l’année pour la dimension temps.
+
+# Jobs : 
+- dimensions
+<img width="943" height="505" alt="image" src="https://github.com/user-attachments/assets/184f13f5-2198-42e9-879d-6af7c5338f4c" />
+<img width="1919" height="1023" alt="image" src="https://github.com/user-attachments/assets/f455e15b-a987-4d9f-adea-5dfe370297b4" />
+
+- Fait : 
+<img width="979" height="600" alt="image" src="https://github.com/user-attachments/assets/9da406fa-b4f5-4455-81e0-c36236ebb41c" />
+<img width="1920" height="945" alt="image" src="https://github.com/user-attachments/assets/c3dbb3d1-b8b0-431b-b309-242103b0066b" />
+
+
+
+
