@@ -26,7 +26,7 @@
 
 - Extraction :
 
-Les données proviennent de plusieurs fichiers Excel (étudiants, filières, inscriptions). + 
+Les données proviennent de plusieurs fichiers Excel (étudiants, filières, inscriptions). 
 
 Utilisation de composants tFileInputExcel dans Talend pour lire chaque fichier.
 
@@ -43,3 +43,5 @@ Conversion des dates et calcul des indicateurs.
 Chargement final dans les tables MySQL du Data Warehouse avec tMySQLOutput.
 
 Respect du modèle en étoile : les dimensions sont chargées avant la table de faits.
+
+<img width="1543" height="266" alt="image" src="https://github.com/user-attachments/assets/fd3fde2b-fd3e-4901-b35e-e6c23497636c" />
